@@ -67,3 +67,21 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Code::Blocks specific files
+*.cbp
+*.depend
+*.layout
+*.gch
+
+# Build directories & Object Artifacts
+bin/
+obj/
+*.o
+*.exe
+
+# CMake & Make specific files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
