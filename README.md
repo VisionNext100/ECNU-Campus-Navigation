@@ -66,14 +66,14 @@ ECNU-Campus-Navigation/
 3\. **Navigation & Graph Algorithms** 
 - Compute the absolute shortest path between any two designated locations based on Dijkstra's algorithm.
 - Analyze the graph topology to determine the existence of an Eulerian Path based on undirected graph degree conditions.
-- Calculate the Minimum Spanning Tree (MST) across the campus graph using Kruskal's algorithm to optimize path coverage.
+- Calculate MST across the campus graph using Kruskal's algorithm to optimize path coverage.
 - Perform topologically constrained shortest path calculations based on specific routing restrictions.
 - Query and display all adjacent edges and immediate neighbors of any selected location vertex.
 - Filter and query campus locations dynamically based on specific category types.  
 
 4\. **Multi-Campus Cross-Tour Route Planning**
 - Plan comprehensive excursion routes specifically from the North Zhongshan Road Campus gate to the Minhang Campus gate. 
-- Allow users to input a customized time budget (which must be greater than or equal to the absolute minimum path travel time between the two campus gates).
+- Allow users to input a customized time budget, which must be greater than or equal to the absolute minimum path travel time between the two campus gates.
 - Generate all feasible tour schemes within the user's specified time budget, dynamically calculating the total time consumption by summing both path travel times and individual spot-visiting durations.
 
 
