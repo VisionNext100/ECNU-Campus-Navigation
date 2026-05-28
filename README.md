@@ -2,13 +2,12 @@
 ## Yehan WANG, ECNU
 
 ### Ⅰ Overview
+East China Normal University is a renowned comprehensive university located in Shanghai, boasting a long history and a rich campus culture. With the continuous development and expansion of the university campuses, a campus navigation application is essential to help freshmen, visitors, and campus members better familiarize themselves with the environment. This project delivers a robust campus navigation system implemented in C++ to provide a wide array of routing, location management, and graph-theoretic algorithm functionalities.
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/VisionNext100/Image-Hosting/images/ECNU-Campus-Navigation/ECNU_Putuo_Campus_Map.jpg" width="300" alt="ECNU Putuo Campus Map">
     <br>
     <em>ECNU Putuo Campus Map</em>
 </div> 
-
-East China Normal University is a renowned comprehensive university located in Shanghai, boasting a long history and a rich campus culture. With the continuous development and expansion of the university campuses, a campus navigation application is essential to help freshmen, visitors, and campus members better familiarize themselves with the environment. This project delivers a robust campus navigation system implemented in C++ to provide a wide array of routing, location management, and graph-theoretic algorithm functionalities.
 
 ### Ⅱ Structure
 ```
