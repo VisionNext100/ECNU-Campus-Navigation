@@ -74,8 +74,26 @@ ECNU-Campus-Navigation/
 4\. **Multi-Campus Cross-Tour Route Planning**
 - Plan comprehensive excursion routes specifically from the North Zhongshan Road Campus gate to the Minhang Campus gate. 
 - Allow users to input a customized time budget, which must be greater than or equal to the absolute minimum path travel time between the two campus gates.
-- Generate all feasible tour schemes within the user's specified time budget, dynamically calculating the total time consumption by summing both path travel times and individual spot-visiting durations.
-
+- Generate all feasible tour schemes within the user's specified time budget, dynamically calculating the total time consumption by summing both path travel times and individual spot-visiting durations.  
+```
+Note: The start and end points for this feature are strictly bound to the specific vertices "North Zhongshan Road Campus Gate"  and "Minhang Campus Gate". Since these dedicated vertices are absent in certain generalized or large-scale random test datasets, please use the `ring_100/` and `random_dense_100/` datasets to properly test and verify this functionality.
+```
 
 ### Ⅳ Compilation
-TODO
+1\. **Prerequisites**
+- A C++ compiler supporting the C++11 standard or higher.
+- Ensure that the dataset files (`nodes.csv` and `edges.csv`) from your chosen test case are placed in the same execution directory as the compiled program.
+
+2\. **Compilation Steps**
+- Navigate to the `CampusNavigation` source code folder using your terminal.
+- Execute the following standard compilation command to link the source files together:
+```
+g++ -std=c++11 main.cpp LGraph.cpp Algorithm.cpp -o CampusNavigator
+```
+
+3\. **Running the Application**
+- Launch the executable from the terminal to open the interactive console menu:
+```
+./CampusNavigator
+```
+- Follow the terminal on-screen prompts to import CSV datasets, manage graph components, or run specific path-finding algorithms.
