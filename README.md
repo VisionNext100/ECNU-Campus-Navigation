@@ -16,36 +16,36 @@ ECNU-Campus-Navigation/
 ├── LICENSE
 ├── .gitignore
 ├── CampusNavigation/
-│   ├── Algorithm.cpp
-│   ├── Algorithm.h
-│   ├── CMakeLists.txt
-│   ├── GraphException.h
-│   ├── LGraph.cpp
-│   ├── LGraph.h
-│   ├── LocationInfo.h
-│   └── main.cpp
+│   ├── Algorithm.cpp       # Graph routing algorithms implementation
+│   ├── Algorithm.h         # Graph routing algorithms declarations
+│   ├── CMakeLists.txt      # CMake build configuration script
+│   ├── GraphException.h    # Custom graph error handling exceptions
+│   ├── LGraph.cpp          # Adjacency list graph implementation
+│   ├── LGraph.h            # Adjacency list graph declarations
+│   ├── LocationInfo.h      # Vertex attribute structure
+│   └── main.cpp            # Application entry and interactive UI
 └── cases/
-    ├── chain_5/
+    ├── chain_5/            # Linear chain topology
     │   ├── answer.txt
     │   ├── command.txt
     │   ├── edges.csv
     │   └── nodes.csv
-    ├── grid_100/
+    ├── grid_100/           # 2D grid network topology
     │   ├── answer.txt
     │   ├── command.txt
     │   ├── edges.csv
     │   └── nodes.csv
-    ├── random_dense_100/
+    ├── random_dense_100/   # Highly connected dense random graph
     │   ├── answer.txt
     │   ├── command.txt
     │   ├── edges.csv
     │   └── nodes.csv
-    ├── ring_100/
+    ├── ring_100/           # Circular ring topology
     │   ├── answer.txt
     │   ├── command.txt
     │   ├── edges.csv
     │   └── nodes.csv
-    └── star_100/
+    └── star_100/           # Hub-and-spoke star topology
         ├── answer.txt
         ├── command.txt
         ├── edges.csv
